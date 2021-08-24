@@ -1,0 +1,11 @@
+@import url("https://Inertia.stringentdev.repl.co/css/html.css");
+@import url("https://Inertia.stringentdev.repl.co/css/nav.css");
+@import url("https://Inertia.stringentdev.repl.co/css/normal.css");
+
+:root {
+	--primary-accent-N: #FFF;
+	--primary-accent-P: #FFF;
+	--primary-accent-A: #8121ff;
+	--primary-accent-H: rgba(0, 0, 0, 0.05);
+	--primary-accent-AH: rgba(97, 21, 255, 0.05);
+}

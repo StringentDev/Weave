@@ -1,0 +1,40 @@
+nav[alignment="top"] {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 55px;
+	background: var(--primary-accent-N);
+	-webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+nav[alignment="top"] >
+div.items>
+a {
+	line-height: 55px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: 0.3s all;
+}
+
+nav[alignment="top"] >
+div.items>
+a.active {
+	border-bottom: 3px solid var(--primary-accent-A);
+	color: var(--primary-accent-A);
+}
+
+nav[alignment="top"] >
+div.items>
+a:hover {
+	background: var(--primary-accent-H);
+}
+
+nav[alignment="top"] >
+div.items>
+a.active:hover {
+	background: var(--primary-accent-AH);
+}
